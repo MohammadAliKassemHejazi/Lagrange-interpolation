@@ -11,10 +11,12 @@ class SplinePanel extends Panel {
     super();
     // Initial points (can be moved)
     this._points = [
-      { u: 0, p: [300, 300] ,t: [50, 0]},
-      { u: 1, p: [600, 300] ,t: [50, 50] },
-      { u: 2, p: [300, 600] ,t: [-50, 50]},
-      { u: 3, p: [600, 600] ,t: [-50, 0]},
+      { u: 0, p: [300, 300] },
+      { u: 1, p: [600, 300] },
+      { u: 2, p: [300, 600] },
+      { u: 3, p: [600, 600] },
+      { u: 4, p: [900, 600] },
+      { u: 5, p: [600, 900] },
     ];
     this._selectedPoint = null;
   }
